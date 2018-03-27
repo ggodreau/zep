@@ -1,0 +1,6 @@
+[default]
+region = us-east-1
+output = json
+emr =
+    service_role = EMR_DefaultRole
+    instance_profile = EMR_EC2_DefaultRole
