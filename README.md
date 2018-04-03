@@ -69,6 +69,6 @@ aws emr create-default-roles
 ```
 
 # spool up a cluster
-aws emr create-cluster --name "zepCluster" --release-label emr-5.12.0 --applications Name=Spark --instance-type m3.xlarge --instance-count 3 --use-default-roles --configurations file://./clusterConfig.json
+```aws emr create-cluster --name "zepCluster" --release-label emr-5.12.0 --applications Name=Spark --instance-type m3.xlarge --instance-count 3 --use-default-roles --configurations file://./clusterConfig.json```
 
 Needs work due to EMR roles not being correct
